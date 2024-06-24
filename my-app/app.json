@@ -1,9 +1,9 @@
 {
   "expo": {
     "name": "my-app",
-    "schema": "react-native",
     "slug": "my-app",
     "version": "1.0.0",
+    "scheme": "myapp",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,6 +24,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-      "plugin": ["expo-router"]
+    "plugins": ["expo-router"]
   }
 }
